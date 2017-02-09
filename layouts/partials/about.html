@@ -1,0 +1,104 @@
+{{ "<!-- About Section -->" | safeHTML }}
+<section id="about" class ="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
+        <p class="section-subheading text-muted">{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</p>
+        <br><br>
+      </div>
+    </div>
+
+    <div class="container">
+        <ul class="timeline">
+            <li>
+              <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Student Milestone</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Over 25% of all undergraduate computer science students at UMD are members of the VR club. Although we we've only been around a year, we are now the third largest computer science club here!</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Sponsored Equipment</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>We would like to thank <a href="www.oculus.com">Oculus</a> and <a href="www.lockheedmartin.com">Lockheed Martin</a> for their generous donations to the VR club! Without our sponsors, we would not be able to develop with the incredibly array of VR equipment we have.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-badge danger"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Review of 2016</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>In 2016, we hosted a panel with prominent VR specialists in the Greater Washington area. We also became SGA recognized and upgraded our equipment to include multiple Oculus Rifts, Dell Optiplexes, an HTC vive, touch controllers and monitors.</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Technica</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>In 2016, for the second year in a role, our members helped mentor Technica, the University of Maryland's first all-women hackathon.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Iribe Center Groundbreaking</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Several members created group projects over the course of the year. A notable one was a groundbreaking virtual reality demo that a large portion of faculty and students at UMD went to see. Some of the notable people who tried the demo were President Wallace Loh, Governor Larry Hogan, and Brendan Iribe.  <a href="https://www.youtube.com/watch?v=L3Ff3SrXs8g">Here is a link to the video</a></p>
+                </div>
+              </div>
+            </li></li>
+            <li>
+              <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Plans for 2017</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Our main goals for 2017 include: massively improving the quantity and quality of our course offerings, seeking additional funding for the lab and semesterly events, beginning to host an annual VR-themed hackathon, expanding our member pool, and continuing to collaborate with other UMD organizations (e.g Bitcamp, AR club).</p>
+                  <!--<div class="btn-group">
+                    <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                      <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+                    </button>
+                     <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Mentorship Program</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>The VR mentorship program will begin in February after our general body meeting. Groups of VR club members with varying levels of VR experience will be assigned a VR mentor and will undergo a semester-long project (including VR club workshops and classes), culminating in a feature exhibit at Bitcamp for the top team).</p>
+                </div>
+              </div>
+            </li>
+        </ul>
+    </div>
+  </div>
+</section>
