@@ -132,20 +132,8 @@ googleAnalytics = ""
      community to develop a great VR culture for students, research, and startups at the University of Maryland."
 
     # The about timeline is NOT configurable under hugo, it is hardcoded in layouts
-    [[params.about.events]]
-      img = "1.jpg"
-      title = "Students"
-      description = "Over 25% of all undergraduate computer science students at UMD are members of the VR club. Although we we've only been around a year, we are now the third largest computer science club here!"
-    [[params.about.events]]
-      img = "2.jpg"
-      title = "Sponsors"
-      description = "We would like to thank [Oculus](https://www.oculus.com) and [Lockheed Martin](http://www.lockheedmartin.com/content.html) for their generous donations to our club."
-    [[params.about.events]]
-      img = "4.jpg"
-      title = "Community"
-      description = "Earlier last year, we hosted a panel with prominent VR specialists in the Greater Washington area. In 2015 and 2016, our members also helped mentor Technica, an all-women hackathon."
-
-  # Team section
+  
+	# Team section
   [params.team]
     enable = true
     # Possibility to center items
