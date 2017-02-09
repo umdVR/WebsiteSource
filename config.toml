@@ -3,67 +3,29 @@ baseurl = "http://umdvr.com"
 languageCode = "en-us"
 title = "UMD VR"
 
-# Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
-
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
   name = "UMD VR Club"
   description = "The University of Maryland’s Virtual Reality Club is composed of students who share an interest in virtual and augmented reality. Come join us today!"
 
-  # Link custom assets relative to /static
-  custom_css = []
-  custom_js  = []
   favicon    = "favicon.ico"
 
-  # Possibility to disable external/additional fonts
-  # Exception: Fontawesome
   disableFonts = false
 
-  # 404 error customization
   [params.error404]
     heading = "Page couldn't be found"
     text = "Please visit [this page](/)"
 
-  # Optional piwik tracking
-  #[params.analytics.piwik]
-  #  URL = "https://stats.example.com"
-  #  ID = "42"
-  #  # Track all subdomains with "*.example.com"
-  #  domain = "www.example.com"
-  #  # Optional integrity check hash
-  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
-
-  # Navigation
+    # Navigation
   [params.navigation]
     brand = "UMD VR"
-    # Optional logo as brand stored in img/
-    #logo = "logo.svg"
     lab = "Lab"
     about = "About"
     projects = "Classes"
     team = "Team"
     contact = "Contact"
 
-    # Add custom links. Those can be pre- and postpended to the default menu above.
-    # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
-
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
     [[menu.postpend]]
       url = "http://gohugo.io"
       name = "External link"
@@ -103,10 +65,6 @@ googleAnalytics = ""
   # projects section
   [params.projects]
     enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
     title = "classes"
     subtitle = "Here are our courses for the Spring 2017 semester!"
 
@@ -136,15 +94,9 @@ googleAnalytics = ""
 	# Team section
   [params.team]
     enable = true
-    # Possibility to center items
-    #center = true
     title = "Our team"
     description = "The VR club is lead by a team of motivated students with a variety of skills and backgrounds, and a common passion for virtual reality development."
 
-    # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    # img = "loh.jpg"
     # ["fa-twitter", "#"],
     # ["fa-facebook", "#"],
     # ["fa-linkedin", "#"]
@@ -223,34 +175,12 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Get in touch with us!"
+    subtitle  = "Get in touch with us at umdvrclub@gmail.com!"
     buttonText = "Send your message"
-
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-
-    # It is possible to substitute formspring with other providers
-    # as an example the mailout plugin from caddy.
-    # Provide the post URL for the form and depending on the provider
-    # add some custom JS script to finish the implementation.
-    # postURL = "https://example.com/mailout/"
 
     email = "umdvrclub@gmail.com"
 
-    # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
-
-    # 'warning' defines error messages for invalid inputs
+	#TODO: Clean this up
     [params.contact.form.name]
       text = "Name"
       warning = "Please enter your name."
@@ -266,15 +196,6 @@ googleAnalytics = ""
     [params.contact.form.message]
       text = "Message"
       warning = "Please enter a message."
-
-      # Add optional form fields to identify contact forms
-      #[[params.contact.form.hidden]]
-      #  name = "someID"
-      #  value = "example.com"
-      #
-      #[[params.contact.form.hidden]]
-      # Special values for name such as "page" and "site" will be autofilled
-      #  name = "page"
 
   # Footer section
   [params.footer]
