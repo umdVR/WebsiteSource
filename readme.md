@@ -9,12 +9,14 @@ Clone WebsiteSource, name it umdVR/ (that's how I'll refer to it).
 5. Now wait as (1) your files finish uploading, (2) github finishes building your site, and (3) one.com breaks cache. Note that the last step takes up to 10 minutes, but should happen instantly if you are pushing a new file.
 
 ## Diagram
-|Local            |Github          |
 
-|==================================|
+umdVR/ -- (push to) --> websiteSource/
+├── archetypes/
+├── data/
+├── layouts/ 
+├── config.toml
+├── public/ -- (push to) --> website/
+└── static/
+│   └── tabular/
 
-|umdVR/           |WebsiteSource/  |
-
-|--public/        |Website/        |
-
-Note: public/ will be generated inside the umdVR/ folder after Hugo.
+public/ will not show up in websiteSource because of the gitignore.
