@@ -10,6 +10,7 @@ Clone WebsiteSource, name it umdVR/ (that's how I'll refer to it).
 
 ## Diagram
 
+<pre>
 umdVR/ -- (push to) --> websiteSource/
 ├── archetypes/
 ├── data/
@@ -18,5 +19,5 @@ umdVR/ -- (push to) --> websiteSource/
 ├── public/ -- (push to) --> website/
 └── static/
 │   └── tabular/
-
+</pre>
 public/ will not show up in websiteSource because of the gitignore.
