@@ -10,8 +10,11 @@ Clone WebsiteSource, name it umdVR/ (that's how I'll refer to it).
 
 ## Diagram
 |Local            |Github          |
+
 |==================================|
+
 |umdVR/           |WebsiteSource/  |
+
 |--public/        |Website/        |
 
 Note: public/ will be generated inside the umdVR/ folder after Hugo.
