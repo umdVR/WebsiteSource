@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://vr.umd.edu"
+baseurl = "http://www.vr.umd.edu"
 languageCode = "en-us"
 title = "UMD VR"
 
