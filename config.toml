@@ -124,7 +124,12 @@ googleAnalytics = ""
     [[params.team.members]]
       name = "Darpan Shah"
       position = "Outreach Treasurer"
-      social = []
+      social = [
+        ["fa-twitter", "https://twitter.com/darpanthemirror"],
+        ["fa-github", "https://github.com/dshah22"],
+        ["fa-linkedin", "https://linkedin.com/in/dmshah"]
+      ]
+      
 
     [[params.team.members]]
       name = "Raghav Gupta (R.K.)"
@@ -169,7 +174,10 @@ googleAnalytics = ""
     [[params.team.members]]
       name = "Kevin Chen"
       position = "Design Director"
-      social = []
+      social = [
+        ["fa-github", "https://github.com/kevchn"],
+        ["fa-linkedin", "https://linkedin.com/in/kevchn"]
+      ]
 
   # Contact section
   [params.contact]
