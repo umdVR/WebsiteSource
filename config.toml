@@ -26,11 +26,6 @@ googleAnalytics = ""
     team = "Team"
     contact = "Contact"
 
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
-
 
   # Hero section
   [params.hero]
@@ -102,19 +97,28 @@ googleAnalytics = ""
     # ["fa-linkedin", "#"]
 
     [[params.team.members]]
-      name = "Amitabh Varshney"
-      position = "Advisor"
-      social = []
-
-    [[params.team.members]]
-      name = "Mikhail Sorokin"
-      position = "President"
-      social = []
-
-    [[params.team.members]]
       name = "Harrison Linowes"
+      position = "President"
+      social = [
+	["fa-github", "https://github.com/hlino"],
+	["fa-linkedin", "https://www.linkedin.com/in/harrison-linowes"]
+	]
+
+    [[params.team.members]]
+      name = "Eashaan Kumar"
       position = "Vice President"
-      social = []
+      social = [
+	["fa-github", "https://github.com/eashaank"],
+	["fa-linkedin", "https://www.linkedin.com/in/eashaan-kumar/"]
+      ]
+
+    [[params.team.members]]
+      name = "Kevin Chen"
+      position = "Director of Technology and Design"
+      social = [
+        ["fa-github", "https://github.com/kevchn"],
+        ["fa-linkedin", "https://linkedin.com/in/kevchn"]
+      ]
 
     [[params.team.members]]
       name = "Richard Vook"
@@ -125,25 +129,11 @@ googleAnalytics = ""
       name = "Darpan Shah"
       position = "Outreach Treasurer"
       social = [
-        ["fa-twitter", "https://twitter.com/darpanthemirror"],
-        ["fa-github", "https://github.com/dshah22"],
-        ["fa-linkedin", "https://linkedin.com/in/dmshah"]
       ]
-      
 
     [[params.team.members]]
-      name = "Raghav Gupta (R.K.)"
+      name = "Raghav Gupta"
       position = "Secretary"
-      social = []
-
-    [[params.team.members]]
-      name = "Brandon Stoekel"
-      position = "Resource Manager"
-      social = []
-
-    [[params.team.members]]
-      name = "Eashaan Kumar"
-      position = "Resource Manager"
       social = []
 
     [[params.team.members]]
@@ -157,27 +147,10 @@ googleAnalytics = ""
       social = []
 
     [[params.team.members]]
-      name = "Jack Bundra"
-      position = "Event Manager"
+      name = "Amitabh Varshney"
+      position = "Advisor"
       social = []
 
-    [[params.team.members]]
-      name = "Ishan Babbar"
-      position = "Event Manager"
-      social = []
-
-    [[params.team.members]]
-      name = "Bill Heberer"
-      position = "Event Manager"
-      social = []
-
-    [[params.team.members]]
-      name = "Kevin Chen"
-      position = "Design Director"
-      social = [
-        ["fa-github", "https://github.com/kevchn"],
-        ["fa-linkedin", "https://linkedin.com/in/kevchn"]
-      ]
 
   # Contact section
   [params.contact]
@@ -208,7 +181,6 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Developed by Kevin Chen (2017)"
 
     [[params.footer.social]]
       icon = "fa-twitter"
